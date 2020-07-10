@@ -17,3 +17,4 @@
   WHERE maintable_9vkfc.Salary = ( 
       SELECT Salary FROM maintable_9vkfc ORDER BY Salary DESC LIMIT 2,1 
   )
+  
